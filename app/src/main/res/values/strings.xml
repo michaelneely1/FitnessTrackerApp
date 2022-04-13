@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">FitnessTrackerApp</string>
+    <string name="login_btn_txt">Login</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="name_hint">Enter Name</string>
+    <string name="password_hint">Enter Password</string>
+    <string name="view_statistics_text">VIEW\nSTATISTICS</string>
+    <string name="view_update_location_text">UPDATE\nLOCATION</string>
+    <string name="today_summary_text">TODAY\nSUMMARY</string>
+    <string name="date_text">Date</string>
+    <string name="distance_text">Distance</string>
+    <string name="email_text">Email</string>
+    <string name="name_text">Name</string>
+    <string name="distance_covered_text">Distance Covered</string>
+</resources>

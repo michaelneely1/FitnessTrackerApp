@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="image_landing_top_padding">70dp</dimen>
+    <dimen name="button_login_padding_horizontal">60dp</dimen>
+    <dimen name="button_login_padding_top">70dp</dimen>
+    <dimen name="dont_have_account_padding_top">30dp</dimen>
+    <dimen name="sign_up_padding_left">10dp</dimen>
+    <dimen name="edit_text_sign_up_page_padding_horizontal">40dp</dimen>
+    <dimen name="edit_text_enter_name_padding_top">40dp</dimen>
+    <dimen name="edit_text_enter_password_padding_top">15dp</dimen>
+    <dimen name="edit_text_sign_up_padding_vertical">10dp</dimen>
+    <dimen name="sign_up_button_sign_up_page_padding_top">10dp</dimen>
+    <dimen name="card_layout_padding_top">30dp</dimen>
+    <dimen name="card_layout_horizontal_margin">20dp</dimen>
+    <dimen name="heading_margin_horizontal">15dp</dimen>
+    <dimen name="heading_padding_horizontal">10dp</dimen>
+    <dimen name="heading_margin_top">20dp</dimen>
+    <dimen name="standard_header_margin">15dp</dimen>
+</resources>

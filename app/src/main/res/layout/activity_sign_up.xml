@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignUpActivity"
+    android:orientation="vertical"
+    android:background="@color/background_main">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="314dp"
+        android:paddingTop="@dimen/image_landing_top_padding"
+        app:srcCompat="@drawable/signup"/>
+
+    <EditText
+        android:id="@+id/edit_text_enter_name_sign_up_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edit_text_sign_up_page_padding_horizontal"
+        android:layout_marginTop="@dimen/edit_text_enter_name_padding_top"
+        android:background="@color/sign_up_edit_text_color_background"
+        android:hint="@string/name_hint"
+        android:paddingVertical="@dimen/edit_text_sign_up_padding_vertical"
+        android:textColorHint="@color/white"
+        android:textColor="@color/white"/>
+
+    <EditText
+        android:id="@+id/edit_text_enter_password_sign_up_page"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="@dimen/edit_text_sign_up_page_padding_horizontal"
+        android:layout_marginTop="@dimen/edit_text_enter_password_padding_top"
+        android:background="@color/sign_up_edit_text_color_background"
+        android:hint="@string/password_hint"
+        android:inputType="textPassword"
+        android:paddingVertical="@dimen/edit_text_sign_up_padding_vertical"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white" />
+    <Button
+        android:id="@+id/button_sign_up_sign_up_page"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/sign_up_button_sign_up_page_padding_top"
+        android:paddingHorizontal="@dimen/button_login_padding_horizontal"
+        android:text="@string/sign_up"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/button_color_main_back"/>
+</LinearLayout>
